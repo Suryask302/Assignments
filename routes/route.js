@@ -23,7 +23,6 @@ const printInfo = () => {
     console.log('RENEWAL_AMOUNT ' + totalprice);
 }
 
-data = fs.readFileSync(process.argv[2]).toString();
 const addTop = (device, num) => {
     if (subplan.date == 'NULL') {
         console.log('ADD_TOPUP_FAILED INVALID_DATE');

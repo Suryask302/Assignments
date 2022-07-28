@@ -1,6 +1,6 @@
 
 const fs = require("fs");
-let data = data = fs.readFileSync(process.argv[2]).toString();
+let data = fs.readFileSync(process.argv[2]).toString();
 
 let { addDate, subScrip, addTop, printInfo } = require('./routes/route')
 
@@ -27,7 +27,7 @@ function main(dataInput) {
             }
         }
     }
-    
+
 }
 
 main(data)
