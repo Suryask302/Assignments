@@ -2,7 +2,7 @@ const fs = require("fs");
 const filename = process.argv[2];
 const moment = require('moment')
 const { Plans } = require('./Plans/Plans')
-
+const {topUp} = require('./Topup/topUp')
 let subPlan = {};
 let planList = [];
 let totalPrice = 0;
