@@ -1,8 +1,8 @@
 
 const fs = require("fs");
 const moment = require('moment')
-const plans = require('./models/PlanModel')
-const topUp = require('./models/TopUpModel')
+const plans = require('../models/PlanModel')
+const topUp = require('../models/TopUpModel')
 const filename = process.argv[2];
 
 
