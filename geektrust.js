@@ -3,18 +3,6 @@ const filename = process.argv[2];
 const moment = require('moment')
 const { Plans } = require('./Plans/Plans')
 
-let topUp = {
-    FOUR_DEVICE: {
-        amount: 50,
-        device: 4
-    },
-    TEN_DEVICE: {
-        amount: 100,
-        device: 10
-    },
-
-}
-
 let subPlan = {};
 let planList = [];
 let totalPrice = 0;
@@ -44,6 +32,7 @@ function main(dataInput) {
         }
     }
 }
+
 const printInfo = () => {
     if (planList.length === 0) {
         console.log('SUBSCRIPTIONS_NOT_FOUND');
